@@ -65,7 +65,3 @@ Assets/
 
 - Context steering concept reference: Game AI Pro 2, Chapter 18
 - Some models/assets are from public asset sources (for example Unity Asset Store and PolyPerfect)
-
-## Note
-
-- This repository is prepared as a standalone project showcase and excludes any third-party assignment delivery documents.

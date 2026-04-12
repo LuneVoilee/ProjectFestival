@@ -65,7 +65,3 @@ Assets/
 
 - Context Steering 思路参考：Game AI Pro 2 Chapter 18
 - 部分模型与素材来自公开资源平台（如 Unity Asset Store、PolyPerfect 等）
-
-## 说明
-
-- 本仓库用于展示完整项目实现，不包含任何外部委托/课程交付文档。
