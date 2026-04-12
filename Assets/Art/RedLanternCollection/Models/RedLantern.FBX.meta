@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 505eae0bb8bed4144a8c55cf0997a45e
+timeCreated: 1525778927
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: lantern01
+    100002: lantern02
+    100004: lantern03
+    100006: lantern04
+    100008: lantern05
+    100010: lantern06
+    100012: lantern07
+    100014: lantern08
+    100016: lantern09
+    100018: lantern10
+    100020: lantern11
+    100022: lantern12
+    100024: lantern13
+    100026: lantern14
+    100028: lantern15
+    100030: lantern16
+    100032: lantern17
+    100034: lantern18
+    100036: lantern19
+    100038: lantern20
+    100040: lantern21
+    100042: lantern22
+    100044: lantern23
+    100046: lantern24
+    100048: //RootNode
+    400000: lantern01
+    400002: lantern02
+    400004: lantern03
+    400006: lantern04
+    400008: lantern05
+    400010: lantern06
+    400012: lantern07
+    400014: lantern08
+    400016: lantern09
+    400018: lantern10
+    400020: lantern11
+    400022: lantern12
+    400024: lantern13
+    400026: lantern14
+    400028: lantern15
+    400030: lantern16
+    400032: lantern17
+    400034: lantern18
+    400036: lantern19
+    400038: lantern20
+    400040: lantern21
+    400042: lantern22
+    400044: lantern23
+    400046: lantern24
+    400048: //RootNode
+    2300000: lantern01
+    2300002: lantern02
+    2300004: lantern03
+    2300006: lantern04
+    2300008: lantern05
+    2300010: lantern06
+    2300012: lantern07
+    2300014: lantern08
+    2300016: lantern09
+    2300018: lantern10
+    2300020: lantern11
+    2300022: lantern12
+    2300024: lantern13
+    2300026: lantern14
+    2300028: lantern15
+    2300030: lantern16
+    2300032: lantern17
+    2300034: lantern18
+    2300036: lantern19
+    2300038: lantern20
+    2300040: lantern21
+    2300042: lantern22
+    2300044: lantern23
+    2300046: lantern24
+    3300000: lantern01
+    3300002: lantern02
+    3300004: lantern03
+    3300006: lantern04
+    3300008: lantern05
+    3300010: lantern06
+    3300012: lantern07
+    3300014: lantern08
+    3300016: lantern09
+    3300018: lantern10
+    3300020: lantern11
+    3300022: lantern12
+    3300024: lantern13
+    3300026: lantern14
+    3300028: lantern15
+    3300030: lantern16
+    3300032: lantern17
+    3300034: lantern18
+    3300036: lantern19
+    3300038: lantern20
+    3300040: lantern21
+    3300042: lantern22
+    3300044: lantern23
+    3300046: lantern24
+    4300000: lantern01
+    4300002: lantern02
+    4300004: lantern03
+    4300006: lantern04
+    4300008: lantern05
+    4300010: lantern06
+    4300012: lantern07
+    4300014: lantern08
+    4300016: lantern09
+    4300018: lantern10
+    4300020: lantern11
+    4300022: lantern12
+    4300024: lantern13
+    4300026: lantern14
+    4300028: lantern15
+    4300030: lantern16
+    4300032: lantern17
+    4300034: lantern18
+    4300036: lantern19
+    4300038: lantern20
+    4300040: lantern21
+    4300042: lantern22
+    4300044: lantern23
+    4300046: lantern24
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

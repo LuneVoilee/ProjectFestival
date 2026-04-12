@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5243fafa3bf64bfcaaced586901bfbb1, type: 3}
+  m_Name: 0 Planter  Box
+  m_EditorClassIdentifier: Assembly-CSharp::Building.Building.Building
+  ID: 0
+  Name: Planter  Box
+  UnlockLevel: 1
+  Cost: 1
+  MoneyBenefit: 0
+  HappinessBenefit: 1
+  ReceptionCount: 1
+  AttractionRadius: 40
+  StayTime: 2
+  Image: {fileID: 21300000, guid: 49cbd34941b4d894d881409f9b422076, type: 3}
+  Prefab: {fileID: 1638002046451141404, guid: 6514f74e5e7def84f94bd0d54ef66671, type: 3}
+  Size: {x: 1, y: 1}

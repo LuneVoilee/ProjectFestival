@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c410f9382d64fdca258e28a528d9301, type: 3}
+  m_Name: 0 StartGame
+  m_EditorClassIdentifier: GamePlay::GamePlay.Level.ConversationData
+  ID: 0
+  TriggerType: 0
+  Conversations:
+  - Welcome to Project Festival!
+  - This game is inspired by real-world winter light festivals.
+  - "Due to the current lack of suitable assets, the visual resemblance to the real
+    festival is\u2026 let\u2019s say, still a work in progress (lol). "
+  - 'Your goal is simple:'
+  - "Make this festival famous, ensure every visitor leaves with a smile \u2014 and
+    of course, earn a bit of money along the way."
+  - "At the top of the screen, you\u2019ll see your core resources:"
+  - 'On the left is your funds, and on the right is satisfaction. '
+  - "When you fulfill visitors\u2019 needs, satisfaction will steadily increase."
+  - "Once it reaches certain thresholds, you\u2019ll unlock new and more powerful
+    buildings to construct."
+  - 'Funds are used to build facilities, but keep this in mind:'
+  - "Not every building generates profit directly. Many of them require ongoing maintenance
+    costs \u2014 though they will greatly boost visitor happiness."
+  - Experiment boldly with your management strategies.
+  - "But always keep an eye on your balance \u2014 bankruptcy is a real possibility."
+  - "That said, the game isn\u2019t completely ruthless: the first time you go bankrupt,
+    we\u2019ll provide you with one last bailout to help you get back on your feet."
+  Effects: []
