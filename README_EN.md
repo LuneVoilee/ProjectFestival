@@ -7,6 +7,8 @@
 `Project Festival` is a Unity-based 3D festival management simulation project.  
 Players place buildings, manage money and happiness, unlock new areas, and scale up the event.
 
+![Showcase](./showcase.png)
+
 ## Gameplay Highlights
 
 - Grid-based building placement with live placement validation.
@@ -18,7 +20,7 @@ Players place buildings, manage money and happiness, unlock new areas, and scale
 
 ## Tech Stack
 
-- Unity `6000.2.8f1` (Unity 6)
+- Unity `6000.3.6f1` (Unity 6.3 LTS)
 - URP (`com.unity.render-pipelines.universal`)
 - Input System (`com.unity.inputsystem`)
 - AI Navigation (`com.unity.ai.navigation`)

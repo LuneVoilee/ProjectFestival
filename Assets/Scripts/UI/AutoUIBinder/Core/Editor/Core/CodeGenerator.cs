@@ -1,12 +1,10 @@
 #region
 
 using System;
-using System.CodeDom;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Microsoft.CSharp;
 using UnityEditor;
 using UnityEngine;
 
@@ -217,19 +215,14 @@ namespace AutoUI
 
         private string GetFriendlyTypeName(Type type)
         {
-            using (var provider = new CSharpCodeProvider())
+            if (type.IsGenericType)
             {
-                var typeReference = new CodeTypeReference(type);
-                string typeName = provider.GetTypeOutput(typeReference);
-
-                int lastDot = typeName.LastIndexOf('.');
-                if (lastDot >= 0)
-                {
-                    typeName = typeName.Substring(lastDot + 1);
-                }
-
-                return typeName;
+                string typeName = type.Name.Substring(0, type.Name.IndexOf('`'));
+                string genericArguments = string.Join(", ", type.GetGenericArguments().Select(GetFriendlyTypeName));
+                return $"{typeName}<{genericArguments}>";
             }
+
+            return type.Name;
         }
     }
 }

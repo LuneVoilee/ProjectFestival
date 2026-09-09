@@ -150,7 +150,7 @@ namespace AutoUI
             // 处理悬停事件
             if (current.type == EventType.Repaint && iconRect.Contains(current.mousePosition))
             {
-                Component comp = EditorUtility.InstanceIDToObject(componentID) as Component;
+                Component comp = EditorUtility.EntityIdToObject(componentID) as Component;
                 if (comp != null)
                 {
                     AutoUIBinderBase iconHandler = HierarchyManager.FindIconHandler(comp);
@@ -175,7 +175,7 @@ namespace AutoUI
                     return;
                 }
 
-                Component comp = EditorUtility.InstanceIDToObject(componentID) as Component;
+                Component comp = EditorUtility.EntityIdToObject(componentID) as Component;
                 if (comp != null)
                 {
                     // 检查节点名称是否包含括号，如果包含则自动重命名
@@ -404,7 +404,7 @@ namespace AutoUI
                     return;
                 }
 
-                GameObject gameObject = EditorUtility.InstanceIDToObject(instanceID) as GameObject;
+                GameObject gameObject = EditorUtility.EntityIdToObject(instanceID) as GameObject;
                 if (gameObject == null)
                     return;
 
@@ -737,7 +737,7 @@ namespace AutoUI
             var highlightedIds = HierarchyManager.GetHighlightedComponentIds();
             foreach (var componentID in highlightedIds)
             {
-                Component comp = EditorUtility.InstanceIDToObject(componentID) as Component;
+                Component comp = EditorUtility.EntityIdToObject(componentID) as Component;
 
 
                 // 如果组件已被删除，直接移除高亮状态

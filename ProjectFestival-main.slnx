@@ -1,0 +1,7 @@
+﻿<Solution>
+  <Project Path="Core.csproj" />
+  <Project Path="UI.csproj" />
+  <Project Path="GamePlay.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Tool.csproj" />
+</Solution>

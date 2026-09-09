@@ -7,6 +7,8 @@ English README: [README_EN.md](README_EN.md)
 `Project Festival` 是一个基于 Unity 的 3D 节庆经营模拟项目。  
 玩家通过放置建筑、管理资金与满意度、解锁区域与建筑，逐步提升活动规模。
 
+![示例](./showcase.png)
+
 ## 核心玩法
 
 - 网格化建造：建筑按网格放置，支持可建造性检测与实时放置指示器。
@@ -18,7 +20,7 @@ English README: [README_EN.md](README_EN.md)
 
 ## 技术栈
 
-- Unity `6000.2.8f1`（Unity 6）
+- Unity `6000.3.6f1` (Unity 6.3 LTS)
 - URP（`com.unity.render-pipelines.universal`）
 - Input System（`com.unity.inputsystem`）
 - AI Navigation（`com.unity.ai.navigation`）

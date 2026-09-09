@@ -63,7 +63,7 @@ namespace AutoUI
 
             foreach (var kvp in highlightedComponents.ToList())
             {
-                Component comp = EditorUtility.InstanceIDToObject(kvp.Key) as Component;
+                Component comp = EditorUtility.EntityIdToObject(kvp.Key) as Component;
                 if (comp == null)
                 {
                     keysToRemove.Add(kvp.Key);
@@ -118,7 +118,7 @@ namespace AutoUI
             var keysToRemove = new List<int>();
             foreach (var kvp in handlerColors)
             {
-                var handler = EditorUtility.InstanceIDToObject(kvp.Key) as AutoUIBinderBase;
+                var handler = EditorUtility.EntityIdToObject(kvp.Key) as AutoUIBinderBase;
                 if (handler == null)
                 {
                     keysToRemove.Add(kvp.Key);
